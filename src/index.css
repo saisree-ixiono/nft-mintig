@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.connect-button {
+    @apply border-2 border-solid border-gray-900 text-gray-50 rounded-lg font-bold hover:bg-teal-400 hover:border-gray-900 hover:text-zinc-800 ease-linear duration-100 !important;
+}
